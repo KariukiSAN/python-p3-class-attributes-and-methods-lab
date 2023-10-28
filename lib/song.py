@@ -43,13 +43,4 @@ class Song:
         else:
             cls.artist_count[artist] = 1
 
-# Example usage
-ninety_nine_problems = Song("99 Problems", "Jay-Z", "Rap")
-single_ladies = Song("Single Ladies", "Beyonce", "Pop")
-hotline_bling = Song("Hotline Bling", "Drake", "R&B")
-
-print(Song.count)  # Output: 3
-print(Song.genres)  # Output: ['Rap', 'Pop', 'R&B']
-print(Song.artists)  # Output: ['Jay-Z', 'Beyonce', 'Drake']
-print(Song.genre_count)  # Output: {'Rap': 1, 'Pop': 1, 'R&B': 1}
-print(Song.artist_count)  # Output: {'Jay-Z': 1, 'Beyonce': 1, 'Drake': 1}
+            
